@@ -9,6 +9,15 @@ p {
     height:4.2em;
     overflow:hidden;
 }
+p:after {
+    content:"...";
+    font-weight:bold;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:0 20px 1px 45px;
+    background:url(./ellipsis_bg.png) repeat-y;
+}
 p::after {
     content:"...";
     font-weight:bold;
